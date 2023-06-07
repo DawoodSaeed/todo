@@ -1,7 +1,8 @@
 import axios from "axios";
 import Cookies from "js-cookie";
+import { API_URL } from "../utility/URL";
 
-const URL = "http://localhost:4000/api/v1";
+const URL = API_URL;
 
 const CowlarAPI = axios.create({
   baseURL: URL,

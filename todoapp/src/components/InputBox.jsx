@@ -19,6 +19,7 @@ const InputWrapper = styled.div`
   backdrop-filter: blur(5.43656px);
 
   border-radius: 8px;
+  overflow: hidden;
 `;
 const Input = styled.input`
   width: 100%;
@@ -26,7 +27,7 @@ const Input = styled.input`
   background: transparent;
   padding: 9px;
   border: none;
-  margin-left: 5px;
+  /* margin-left: 5px; */
   font: inherit;
   &:focus {
     outline: none;

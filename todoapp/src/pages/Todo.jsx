@@ -29,6 +29,11 @@ const Image = styled.img`
     inset 0px 2px 0px rgba(255, 255, 255, 0.157326),
     inset 0px -2px 0px rgba(0, 0, 0, 0.05);
   backdrop-filter: blur(2.71828px);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  &:hover {
+    opacity: 0.7;
+  }
 `;
 
 const MiniContainer = styled.div`
