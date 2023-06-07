@@ -1,4 +1,4 @@
-# todo APP
+# TODO APP
 # Frontend
 Frontend is done in react js form handling is done using react hook form and states are managed using the context api
 For making the request to backend I have used axios and haved the concept of interceptors
