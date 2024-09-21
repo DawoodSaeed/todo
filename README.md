@@ -1,49 +1,34 @@
-# TODO APP
-# Frontend
-Frontend is done in react js form handling is done using react hook form and states are managed using the context api
-For making the request to backend I have used axios and haved the concept of interceptors
+# Todo App
 
+## Overview
 
+This application is a full-stack Todo application built using React for the frontend and Node.js for the backend. It includes user authentication, todo management, and image upload functionality. 
 
-To RUN : npm run dev
-To CHANGE BACKEND URL GO TO: src/utility/URL.js
-DOESN'T have .env file
+## Frontend
 
+The frontend is developed in React, utilizing the following technologies:
 
-ABOUT THE APP:
-You need to login first or register it will store the token using js-cookie
-took you to do the todo page 
+- **React Hook Form**: For efficient form handling.
+- **Context API**: For state management, avoiding prop drilling.
+- **Axios**: For making HTTP requests to the backend with interceptors for enhanced request management.
+- **JS-Cookies**: For storing authentication tokens.
+- **React Router DOM**: For navigation between different pages.
+- **Bootstrap Toast**: For displaying error notifications.
 
-YOU CAN CLICK THE IMAGE TO UPLOAD THE IMAGE
+### Folder Structure
 
-FOLDER STRUCTURE:
-inside SRC
-Pages => The main the pages such Todo , Login and Logout screen
-Then there is a component page
-Services => Has methods to make  request to the api
-api => axios configuration file
-utility => has URl file to chnage the url of the backend server
+- **src**
+  - **Pages**: Contains main pages like Todo, Login, and Logout screens.
+  - **Components**: Reusable components used across the app.
+  - **Services**: Methods for making requests to the API.
+  - **API**: Axios configuration file for setting up requests.
+  - **Utility**: Contains the `URL.js` file to change the backend server URL.
 
-NOTIFICATION OF ERRORS ARE DONE USING TOAST PROVIDED => BOOTSTRAP
-FORM HANDLING => REACT HOOK FORM
-JS-COOKIES
-REACT-ROUTER-DOM
-AXIOS
-CONTEXT API IS USED TO AVOID PROP DRILLING
+### Running the Frontend
 
-# BACKEND
+To run the frontend application:
 
-To run use: npm start
-
-What I have done
-Authentication is done using => passport.js / passport-JWT
-To seperate the logic i have used => statics and instance methods of mongoose
-Password hashing => bcyrpt
-Data validation and schema definition => JOI
-Image Upload => Multer
-
-
-CLEAN CODE AND FOLDER STRUCTURE OF THE CODE
-
-SAMPLE .env file is provided in the github repo
-
+1. Navigate to the project directory.
+2. Run the following command:
+   ```bash
+   npm run dev
